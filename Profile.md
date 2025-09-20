@@ -1,1 +1,23 @@
+Hello, my name is **Thach Gia Uy**.
+I am currently a student majoring in **Multimedia Technology** at **PTIT**.
+
+🔹 **Interests**:
+
+* Passionate about creativity and programming
+* Developing web and mobile applications
+* Artificial Intelligence
+
+🔹 **Skills**:
+
+* Programming languages: C++, Python, JavaScript, SQL
+* Tools: Git, Visual Studio Code, MySQL
+* Development processes: Agile - Scrum, Waterfall
+
+🔹 **Goals**:
+
+* Become a professional software engineer
+* Contribute to real-world software projects
+* Continuously explore new technologies and trends in the IT industry
+
+Thank you for reading my introduction.
 
