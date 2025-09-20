@@ -1,5 +1,5 @@
 # Nhập môn Công nghệ phần mềm
-## BÀI TẬP: Software Engineering Lab | Lecture - 01-05 | NHÓM: 3 | LỚP: D232CQPTUD01-N
+## BÀI TẬP: Software Engineering Lab | Lecture - 01-05 | NHÓM: 3 | LỚP: D23CQPTUD01-N
 **Các thành viên nhóm:**
 - Lê Thị Bảo Diệp - N23DCPT012
 - Nguyễn Ngọc Gia Hân - N23DCPT019
