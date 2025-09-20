@@ -1,5 +1,4 @@
-Welcome to our project!
-Hello, my name is Lê Thị Bảo Diệp.  
+Welcome, my name is Lê Thị Bảo Diệp.  
 I am currently a student at the Posts and Telecommunications Institute of Technology in Ho Chi Minh City, majoring in Multimedia Technology.  
 
 🔹 Interests
@@ -17,4 +16,5 @@ I am currently a student at the Posts and Telecommunications Institute of Techno
 
 ---
 
-Thank you for visiting my project introduction!  
+
+Thank you for visiting my introduction!  
