@@ -1,0 +1,20 @@
+Welcome to our project!
+Hello, my name is Lê Thị Bảo Diệp.  
+I am currently a student at the Posts and Telecommunications Institute of Technology in Ho Chi Minh City, majoring in Multimedia Technology.  
+
+🔹 Interests
+- Software requirements and system analysis  
+- Web and mobile application development  
+
+🔹 Skills
+- Programming languages: C++, JavaScript, SQL  
+- Teamwork and project collaboration  
+
+🔹 Goals
+- To become professional software engineers  
+- To contribute to real-world software projects  
+- To keep learning about new technologies and trends in the IT industry  
+
+---
+
+Thank you for visiting my project introduction!  
