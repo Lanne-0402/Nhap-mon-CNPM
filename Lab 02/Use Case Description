@@ -1,0 +1,49 @@
+Viết Use Case Description chuẩn UML cho ít nhất 2 chức năng quan trọng.
+
+📌 Use Case 1: Checkin/Checkout
+
+1. Tên Use Case: Checkin/Checkout
+2. Tác nhân chính: Nhân viên
+3. Mục tiêu: Nhân viên thực hiện chấm công khi bắt đầu ca làm và kết thúc ca làm.
+4. Tiền điều kiện:
+- Nhân viên đã đăng nhập vào hệ thống.
+- Hệ thống đang hoạt động bình thường.
+5. Hậu điều kiện:
+- Thời gian checkin/checkout được lưu vào cơ sở dữ liệu.
+- Lịch sử chấm công của nhân viên được cập nhật.
+6. Luồng sự kiện chính:
+- Nhân viên đăng nhập vào hệ thống.
+- Nhân viên chọn chức năng Checkin/Checkout.
+- Hệ thống ghi nhận thời gian hiện tại (theo đồng hồ hệ thống).
+- Hệ thống lưu dữ liệu vào bảng chấm công.
+- Hệ thống hiển thị thông báo thành công.
+7. Luồng sự kiện thay thế (ngoại lệ):
+- 3a. Nếu nhân viên đã checkin mà tiếp tục checkin → hệ thống thông báo "Bạn đã chấm công vào ca, chỉ có thể Checkout".
+- 3b. Nếu nhân viên chưa checkin mà chọn checkout → hệ thống thông báo lỗi.
+- 4a. Nếu hệ thống mất kết nối cơ sở dữ liệu → hiện thông báo "Chấm công thất bại, vui lòng thử lại".
+
+
+📌 Use Case 2: Yêu cầu chỉnh sửa chấm công/Khiếu nại
+
+1. Tên Use Case: Yêu cầu chỉnh sửa chấm công/Khiếu nại
+2. Tác nhân chính: Nhân viên
+3. Tác nhân phụ: Quản lý
+4. Mục tiêu: Nhân viên gửi yêu cầu chỉnh sửa giờ công hoặc khiếu nại khi phát hiện sai sót.
+5. Tiền điều kiện:
+- Nhân viên đã đăng nhập.
+- Đã tồn tại dữ liệu chấm công cần chỉnh sửa.
+6. Hậu điều kiện:
+- Yêu cầu chỉnh sửa được lưu trong hệ thống.
+- Quản lý nhận được thông báo và xử lý.
+7. Luồng sự kiện chính:
+- Nhân viên chọn chức năng Yêu cầu chỉnh sửa chấm công/Khiếu nại.
+- Nhân viên nhập thông tin: ngày, ca làm, lỗi phát sinh, và nội dung yêu cầu.
+- Hệ thống kiểm tra dữ liệu có hợp lệ (ngày tồn tại, ca làm hợp lệ).
+- Hệ thống lưu yêu cầu vào cơ sở dữ liệu.
+- Hệ thống gửi thông báo đến quản lý.
+- Quản lý xem xét và đưa ra phản hồi (chấp nhận hoặc từ chối).
+- Nhân viên nhận được thông báo kết quả từ quản lý.
+8. Luồng sự kiện thay thế (ngoại lệ):
+- 2a. Nhân viên bỏ trống nội dung yêu cầu → hệ thống báo lỗi “Vui lòng nhập chi tiết khiếu nại”.
+- 3a. Nhân viên nhập ngày không tồn tại trong lịch sử chấm công → hệ thống báo lỗi “Không tìm thấy dữ liệu ca làm”.
+- 6a. Quản lý chưa phản hồi → trạng thái yêu cầu hiển thị là “Chờ xử lý”.
