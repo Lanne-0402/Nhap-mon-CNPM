@@ -1,0 +1,27 @@
+
+*Các tác nhân (Actors)
+
+1. Nhân viên: Sử dụng hệ thống để thực hiện các thao tác chấm công, xem lịch sử, và gửi yêu cầu chỉnh sửa/khiếu nại.
+2. Quản lý: Có vai trò quản lý nhân viên, ca làm việc, kiểm tra thống kê giờ công, và xử lý các yêu cầu chỉnh sửa từ nhân viên.
+3. Admin: Người quản trị cao nhất, chịu trách nhiệm vận hành, phát triển hệ thống, cấp quyền và xuất báo cáo.
+
+
+*Các chức năng chính (Use Cases)
+
+1. Nhân viên: 
+- Đăng nhập/Đăng xuất: truy cập hệ thống để sử dụng chức năng.
+- Checkin/Checkout: chấm công khi vào/ra ca làm việc.
+- Xem lịch sử chấm công: theo dõi chi tiết giờ làm của bản thân, bao gồm dữ liệu thống kê giờ công.
+- Yêu cầu chỉnh sửa chấm công/Khiếu nại: gửi yêu cầu đến quản lý khi có sai sót về chấm công.
+
+2. Quản lý:
+- Quản lý nhân viên: thêm, sửa, hoặc theo dõi thông tin nhân viên.
+- Quản lý ca làm việc: thiết lập, thay đổi, phân công ca làm cho nhân viên.
+- Thống kê, tổng hợp giờ công: tổng hợp dữ liệu chấm công để đánh giá hiệu quả làm việc.
+- Phản hồi chỉnh sửa chấm công/Khiếu nại: duyệt hoặc từ chối các yêu cầu chỉnh sửa từ nhân viên.
+
+3. Admin:
+- Kiểm thử chất lượng và vận hành: đảm bảo hệ thống chạy ổn định, đúng yêu cầu.
+- Phát triển và cải tiến: nâng cấp, bổ sung tính năng mới.
+- Cấp quyền, cập nhật dữ liệu hằng ngày: phân quyền truy cập và duy trì dữ liệu hệ thống.
+- Thống kê và báo cáo: tạo báo cáo quản trị, có thể xuất file (Excel/PDF) để lưu trữ hoặc gửi đi.
