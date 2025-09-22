@@ -1,0 +1,51 @@
+📌 Các tác nhân (Actors) chính
+
+Employee (Nhân viên) – tác nhân ngoài, thực hiện check-in/check-out.
+Manager (Quản lý trực tiếp) – có thể theo dõi, xem danh sách check-in của nhân viên.
+Admin (Quản trị hệ thống) – quản lý tài khoản, dữ liệu chấm công, và phân quyền.
+
+
+📌 Các Use Case (UC) chính liên quan đến Check-in
+
+Check-in bằng QR code (UC chính)
+	Actor: Employee
+	Hệ thống ghi nhận thông tin vào Database.
+
+Check-out bằng QR code (UC chính, song song với check-in
+	Actor: Employee
+	Hệ thống ghi nhận thời gian ra về.
+
+Ghi nhận dữ liệu chấm công (UC phụ, include)
+	Sau khi xác thực thành công → lưu thông tin vào Database.
+	Tính giờ làm việc / Đi muộn / Về sớm (UC mở rộng, extend)
+		(Có thể mở rộng từ Check-out để tính tổng thời gian làm.)
+Xem trạng thái chấm công
+	Actor: Employee (xem mình đã check-in/check-out chưa).
+
+Quản lý chấm công
+	Actor: Manager
+	Xem danh sách nhân viên đã check-in, theo dõi đi muộn/về sớm.
+
+Quản trị hệ thống
+	Actor: Admin
+	Quản lý tài khoản nhân viên, phân quyền, quản lý database.
+
+
+📌 Sequence Diagram cho App Chấm Công (tương tự như trên)
+
+Đối tượng (lifelines):
+	Employee (actor): nhân viên.
+	App: ứng dụng chấm công (giao diện).
+	Controller: xử lý logic check-in/check-out.
+	AttendanceSystem: hệ thống quản lý chấm công.
+	Database: nơi lưu trữ thông tin chấm công.
+
+Luồng tuần tự:
+	Employee → App: "Check-in()" (quét QR code).
+	App → Controller: Gửi dữ liệu check-in (ID nhân viên + thời gian + QR).
+	Controller → AttendanceSystem: Gửi yêu cầu xác thực và lưu thông tin.
+	AttendanceSystem → Database: Lưu dữ liệu chấm công.
+	Database → AttendanceSystem: Trả về "success".
+	AttendanceSystem → Controller: Thông báo check-in thành công.
+	Controller → App: Cập nhật trạng thái check-in cho nhân viên.
+	App → Employee: Hiển thị thông báo "Check-in thành công".	
