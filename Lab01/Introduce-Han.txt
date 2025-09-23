@@ -8,7 +8,7 @@ I am currently a student at the Ho Chi Minh City University of Posts and Telecom
 
 🔹 Skills
 - Programming languages: C++, JavaScript, HTML, SQL
-- Tools: Git, Visual Studio Code, Jira, MySQL
+- Tools: Git, Visual Studio Code, Jira, MySQL, Selenium
 - Teamwork and project collaboration, problem analysis
 
 🔹 Goals
