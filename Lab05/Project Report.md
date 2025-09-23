@@ -30,8 +30,7 @@ git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
 cd Nhap-mon-CNPM
 ```
 - Login Form:
-
-
+![Login form demo]()
 5. Triển khai demo bằng GitHub Pages
 
 Nhóm sử dụng GitHub Pages để deploy trực tiếp giao diện từ branch main.
