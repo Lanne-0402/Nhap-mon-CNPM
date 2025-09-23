@@ -29,67 +29,69 @@
 ▪ 4a. Nếu hệ thống mất kết nối cơ sở dữ liệu → hiện thông báo "Chấm công thất bại, vui lòng thử lại".
 
 
-🔻 Use Case 2: Yêu cầu chỉnh sửa chấm công/Khiếu nại
+🔻 Use Case 2: Quản lý nhân viên
 
-1. Tên Use Case: Yêu cầu chỉnh sửa chấm công/Khiếu nại
-
-2. Tác nhân chính: Nhân viên
-
-3. Tác nhân phụ: Quản lý
-
-4. Mục tiêu: Nhân viên gửi yêu cầu chỉnh sửa giờ công hoặc khiếu nại khi phát hiện sai sót.
-
-5. Tiền điều kiện:
-▪ Nhân viên đã đăng nhập.
-▪ Đã tồn tại dữ liệu chấm công cần chỉnh sửa.
-
-6. Hậu điều kiện:
-▪ Yêu cầu chỉnh sửa được lưu trong hệ thống.
-▪ Quản lý nhận được thông báo và xử lý.
-
-7. Luồng sự kiện chính:
-▪ Nhân viên chọn chức năng Yêu cầu chỉnh sửa chấm công/Khiếu nại.
-▪ Nhân viên nhập thông tin: ngày, ca làm, lỗi phát sinh, và nội dung yêu cầu.
-▪ Hệ thống kiểm tra dữ liệu có hợp lệ (ngày tồn tại, ca làm hợp lệ).
-▪ Hệ thống lưu yêu cầu vào cơ sở dữ liệu.
-▪ Hệ thống gửi thông báo đến quản lý.
-▪ Quản lý xem xét và đưa ra phản hồi (chấp nhận hoặc từ chối).
-▪ Nhân viên nhận được thông báo kết quả từ quản lý.
-
-8. Luồng sự kiện thay thế (ngoại lệ):
-▪ 2a. Nhân viên bỏ trống nội dung yêu cầu → hệ thống báo lỗi “Vui lòng nhập chi tiết khiếu nại”.
-▪ 3a. Nhân viên nhập ngày không tồn tại trong lịch sử chấm công → hệ thống báo lỗi “Không tìm thấy dữ liệu ca làm”.
-▪ 6a. Quản lý chưa phản hồi → trạng thái yêu cầu hiển thị là “Chờ xử lý”.
-
-
-🔻 Use Case 3: Thống kê, tổng hợp giờ công
-
-1. Tên Use Case: Thống kê, tổng hợp giờ công
+1. Tên Use Case: Quản lý nhân viên
 
 2. Tác nhân chính: Quản lý
 
 3. Mục tiêu:
-
-▪ Quản lý xem và tổng hợp số giờ làm việc của nhân viên trong khoảng thời gian cụ thể (ngày, tuần, tháng).
-▪ Dữ liệu này phục vụ việc tính lương, đánh giá hiệu quả làm việc.
+▪ Quản lý thêm, sửa, xóa, hoặc tìm kiếm thông tin nhân viên để phục vụ công tác quản trị nhân sự.
 
 4. Tiền điều kiện:
-▪ Quản lý đã đăng nhập hệ thống.
-▪ Dữ liệu chấm công đã được lưu trong cơ sở dữ liệu.
+▪ Quản lý đã đăng nhập vào hệ thống.
+▪ Quản lý có quyền chỉnh sửa dữ liệu nhân viên.
 
 5. Hậu điều kiện:
-▪ Hệ thống hiển thị bảng thống kê giờ công theo yêu cầu.
-▪ Quản lý có thể xuất dữ liệu để lưu trữ hoặc báo cáo.
+▪ Dữ liệu nhân viên trong hệ thống được cập nhật chính xác.
 
 6. Luồng sự kiện chính:
-▪ Quản lý chọn chức năng Thống kê, tổng hợp giờ công.
-▪ Quản lý nhập điều kiện lọc (khoảng thời gian, phòng ban, nhân viên cụ thể).
-▪ Hệ thống truy vấn dữ liệu chấm công từ cơ sở dữ liệu.
-▪ Hệ thống tính toán tổng số giờ công (giờ làm, giờ nghỉ, số lần đi muộn, số ngày vắng).
-▪ Hệ thống hiển thị bảng thống kê cho quản lý.
-▪ Quản lý có thể chọn xuất báo cáo ra file (Excel/PDF).
+▪ Quản lý chọn chức năng Quản lý nhân viên.
+▪ Hệ thống hiển thị danh sách nhân viên hiện có.
+▪ Quản lý thực hiện một trong các hành động:
+ - Thêm nhân viên mới (nhập thông tin cá nhân, phòng ban, chức vụ).
+ - Sửa thông tin nhân viên (cập nhật dữ liệu cũ).
+ - Xóa nhân viên (nếu nghỉ việc).
+ - Tìm kiếm nhân viên theo tên, mã số, phòng ban.
+▪ Hệ thống kiểm tra dữ liệu đầu vào.
+▪ Hệ thống lưu thay đổi vào cơ sở dữ liệu.
+▪ Hệ thống hiển thị thông báo “Cập nhật thành công”.
 
 7. Luồng sự kiện thay thế (ngoại lệ):
-▪ 2a. Quản lý không nhập khoảng thời gian → hệ thống báo lỗi “Vui lòng chọn thời gian thống kê”.
-▪ 3a. Không có dữ liệu phù hợp với điều kiện lọc → hệ thống hiển thị thông báo “Không tìm thấy dữ liệu”.
-▪ 6a. Nếu hệ thống gặp lỗi khi xuất file → hiển thị “Xuất báo cáo thất bại, vui lòng thử lại”.
+▪ 4a. Nhập dữ liệu thiếu hoặc sai định dạng → hệ thống báo lỗi “Thông tin không hợp lệ”.
+▪ 5a. Không thể kết nối cơ sở dữ liệu → hệ thống báo lỗi “Thao tác thất bại, vui lòng thử lại”.
+▪ 3c. Nếu xóa nhân viên đang có ca làm việc chưa hoàn tất → hệ thống từ chối và báo “Không thể xóa nhân viên đang trong ca làm việc”.
+
+
+🔻 Use Case 3: Quản lý ca làm việc
+
+1. Tên Use Case: Quản lý ca làm việc
+
+2. Tác nhân chính: Quản lý
+
+3. Mục tiêu:
+▪ Quản lý tạo, chỉnh sửa, phân công hoặc xóa ca làm việc để sắp xếp lịch làm hợp lý cho nhân viên.
+
+4. Tiền điều kiện:
+▪ Quản lý đã đăng nhập.
+▪ Danh sách nhân viên đã tồn tại trong hệ thống.
+
+5. Hậu điều kiện:
+▪ Ca làm việc của nhân viên được lưu và đồng bộ vào lịch chấm công.
+
+6. Luồng sự kiện chính:
+▪ Quản lý chọn chức năng Quản lý ca làm việc.
+▪ Hệ thống hiển thị danh sách ca làm việc hiện có.
+▪ Quản lý thực hiện một trong các hành động:
+ - Tạo ca làm việc mới (ngày, giờ bắt đầu, giờ kết thúc, nhân viên được phân công).
+ - Chỉnh sửa ca làm việc (thay đổi giờ hoặc nhân viên trực ca).
+ - Xóa ca làm việc (nếu không còn cần thiết).
+▪ Hệ thống kiểm tra dữ liệu đầu vào (tránh trùng ca, ca rỗng, ca ngoài thời gian hợp lệ).
+▪ Hệ thống lưu thay đổi vào cơ sở dữ liệu.
+▪ Hệ thống cập nhật lịch làm việc của nhân viên.
+▪ Hệ thống hiển thị thông báo “Cập nhật ca làm việc thành công”.
+
+7. Luồng sự kiện thay thế (ngoại lệ):
+▪ 4a. Ca làm việc bị trùng giờ với ca đã có → hệ thống báo lỗi “Trùng ca làm việc, vui lòng chọn thời gian khác”.
+▪ 4b. Quản lý phân công nhân viên không tồn tại → hệ thống báo “Nhân viên không hợp lệ”.
+▪ 5a. Hệ thống lỗi cơ sở dữ liệu → thông báo “Không thể lưu ca làm việc, vui lòng thử lại”.
