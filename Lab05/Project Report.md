@@ -35,4 +35,4 @@ cd Nhap-mon-CNPM
 
 Nhóm sử dụng GitHub Pages để deploy trực tiếp giao diện từ branch main.
 Bật GitHub Pages trong Settings → Pages.
-Link demo: https://lanne-0402.github.io/Nhap-mon-CNPM/
+Link demo: https://lanne-0402.github.io/Nhap-mon-CNPM/Lab04
