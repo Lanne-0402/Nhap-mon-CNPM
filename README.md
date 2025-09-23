@@ -48,4 +48,4 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tí
 Clone repo:  
 ```bash
 git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
-cd [ten-repo]
+cd Nhap-mon-CNPM
