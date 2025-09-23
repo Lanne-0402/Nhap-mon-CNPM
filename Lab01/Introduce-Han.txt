@@ -9,11 +9,11 @@ I am currently a student at the Ho Chi Minh City University of Posts and Telecom
 🔹 Skills
 - Programming languages: C++, JavaScript, HTML, SQL
 - Tools: Git, Visual Studio Code, Jira, MySQL
-- Teamwork and project collaboration
+- Teamwork and project collaboration, problem analysis
 
 🔹 Goals
 - Become a professional software engineer
-- Contribute to real software projects, create your own projects
+- Contribute to real software projects, create my own projects
 - Continuously learn about new technologies and trends in the IT and AI industry
 
 ---
