@@ -22,7 +22,7 @@ Note: Một bạn trong nhóm sẽ tạo repository public và mời các thành
 ![UC img1](../Lab02/UseCaseMini-App.png)
 - **Sơ đồ UML Use Case Diagram (UC) cho các chức năng checkin**:
 ![UC ](../Lab03/UC%20Diagram%20check-in.drawio.png)
-- **Sơ đồ UML Sequence Diagram (SQ)**:
+- **Sơ đồ UML Sequence Diagram (SQ)**:        
 ![SQ img](../Lab03/Sequence%20diagram%20App%20Cham%20cong.drawio.png)
 ### Clone về máy cục bộ để làm Login Form:
 ```bash
