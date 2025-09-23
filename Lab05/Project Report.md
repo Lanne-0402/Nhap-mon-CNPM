@@ -18,9 +18,12 @@ Mỗi chức năng được mô tả và trực quan hóa bằng sơ đồ UML (
 - **Tạo repo public**:  
   Link repo: [https://github.com/Lanne-0402/Nhap-mon-CNPM.git](https://github.com/Lanne-0402/Nhap-mon-CNPM.git)  
 Note: Một bạn trong nhóm sẽ tạo repository public và mời các thành viên tham gia để làm bài nhóm qua link trên. Người sở hữu repo (owner) trao quyền cho tất cả thành viên đều có thể chỉnh sửa để cùng nhau làm bài.
-- **Sơ đồ UML Use Case Diagram (UC)**:
-
+- **Sơ đồ UML Use Case Diagram (UC) cho các chức năng chính của hệ thống**:
+![UC img](../Lab02/UseCaseMini-App.png)
+- **Sơ đồ UML Use Case Diagram (UC) cho các chức năng checkin**:
+![UC img](../Lab03/UseCaseMini-App.png)
 - **Sơ đồ UML Sequence Diagram (SQ)**:
+![SQ img](../Lab03/)
 ### Clone về máy cục bộ để làm Login Form:
 ```bash
 git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
