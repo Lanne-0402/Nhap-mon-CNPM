@@ -1,0 +1,33 @@
+1. Giải thích Use Case cho “Quản lý nhân viên”
+🎭 Actors:
+    Manager (Quản lý): người trực tiếp thao tác thêm/sửa/xóa thông tin nhân viên.
+    Admin: cũng có quyền tương tự (quản trị cao hơn).
+    Hệ thống: thực hiện lưu trữ và xác thực dữ liệu.
+
+🎬 Các Use Case chính:
+    Thêm nhân viên: nhập thông tin (tên, email, số điện thoại, chức vụ,...), hệ thống lưu vào DB.
+    Sửa thông tin nhân viên: chỉnh sửa hồ sơ có sẵn.
+    Xóa nhân viên: loại bỏ hồ sơ khỏi hệ thống.
+
+📌 Use Case phụ (include/extend):
+    Xác thực quyền hạn (include): đảm bảo chỉ Manager/Admin được phép thao tác.
+    Ghi log hoạt động (extend): lưu lại thao tác để kiểm tra.
+
+2. Sequence Diagram cho nghiệp vụ (Quản lí nhân viên)
+🎭 Đối tượng tham gia:
+    Actor: Manager (hoặc Admin).
+    EmployeeForm (UI): giao diện nhập thông tin nhân viên.
+    Controller: nhận request từ UI.
+    Service: xử lý nghiệp vụ (validate dữ liệu, check quyền).
+    DAO: lưu xuống DB.
+    Database: nơi chứa thông tin nhân viên.
+
+📌 Luồng tương tác:
+    Manager/Admin mở form và nhập thông tin nhân viên.
+    UI gửi yêu cầu Submit employee action (Add/Edit/Delete) đến Controller.
+    Controller gọi Service để xử lý logic.
+    Service gọi DAO để execute(action, data).
+    DAO chèn/sửa/xoá dữ liệu trong Database.
+    Database trả kết quả (thành công/thất bại).
+    Service trả Response cho Controller.
+    Controller trả kết quả cho UI → hiển thị cho Manager/Admin.
