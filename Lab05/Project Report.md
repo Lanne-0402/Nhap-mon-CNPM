@@ -21,9 +21,9 @@ Note: Một bạn trong nhóm sẽ tạo repository public và mời các thành
 - **Sơ đồ UML Use Case Diagram (UC) cho các chức năng chính của hệ thống**:
 ![UC img1](../Lab02/UseCaseMini-App.png)
 - **Sơ đồ UML Use Case Diagram (UC) cho các chức năng checkin**:
-![UC ](../Lab03/UC%20QLNV%20App.drawio.png)
+![UC img2](../Lab03/UC%20QLNV%20App.drawio.png)
 - **Sơ đồ UML Sequence Diagram (SQ)**:        
-![SQ img](../Lab03/SQ%20Diagram%QLNV%20App.drawio.png)
+![SQ img](../Lab03/SQ%20Diagram%20QLNV%20App.drawio.png)
 ### Clone về máy cục bộ để làm Login Form:
 ```bash
 git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
