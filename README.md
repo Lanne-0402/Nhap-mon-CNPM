@@ -24,8 +24,6 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tí
 - Quản lý ca làm việc
 - Báo cáo ngày/tuần/tháng
 
-<img width="821" height="801" alt="UseCaseMini-App" src="https://github.com/user-attachments/assets/ecefe2a9-3367-4558-987f-54420d20629b" />
-
 ---
 
 ## 📐 Thiết kế hệ thống  
