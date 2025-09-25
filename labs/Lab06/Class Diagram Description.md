@@ -1,6 +1,7 @@
 🔶 Mô tả sơ đồ lớp - Class Diagram 
 
 
+
 🔵 Mô tả chi tiết các lớp
 
 *1. Lớp User*
@@ -16,6 +17,7 @@
  - + Đăng xuất()
 
 * Ý nghĩa: Lớp cơ sở, chứa thông tin đăng nhập và vai trò chung của tất cả người dùng hệ thống.
+
 
 *2. Lớp Nhân viên*
 
@@ -36,6 +38,7 @@
    
 * Ý nghĩa: Đại diện cho nhân viên trong hệ thống, có thể chấm công và gửi khiếu nại nếu có sai sót.
 
+
 *3. Lớp Quản lý*
 
 * Phương thức:
@@ -50,6 +53,7 @@
 
 * Ý nghĩa: Quản lý chịu trách nhiệm điều hành, theo dõi hoạt động chấm công và xử lý yêu cầu chỉnh sửa.
 
+
 *4. Lớp Admin*
 
 * Phương thức:
@@ -60,6 +64,7 @@
 * Quan hệ: Kế thừa từ User.
 
 * Ý nghĩa: Admin quản trị cấp cao, đảm bảo hệ thống vận hành, xử lý báo cáo tổng thể và bảo trì hệ thống.
+
 
 *5. Lớp Checkin/Checkout*
 
@@ -77,6 +82,7 @@
  - Dữ liệu được sử dụng trong Báo cáo chấm công.
    
 * Ý nghĩa: Ghi nhận dữ liệu chấm công hàng ngày của nhân viên.
+
 
 *6. Lớp Yêu cầu chỉnh sửa chấm công*
 
@@ -97,6 +103,7 @@
 
 * Ý nghĩa: Giúp nhân viên yêu cầu sửa đổi dữ liệu chấm công khi có sai sót.
 
+
 *7. Lớp Quản lý ca*
 
 * Thuộc tính:
@@ -113,6 +120,7 @@
 
 *Ý nghĩa: Đại diện cho lịch làm việc, cho phép quản lý phân ca và chỉnh sửa ca làm việc.
 
+
 *8. Lớp Quản lý nhân viên*
 
 * Thuộc tính:
@@ -127,6 +135,7 @@
 * Quan hệ: Hỗ trợ Quản lý.
 
 * Ý nghĩa: Chức năng quản lý thông tin nhân viên và ca làm việc.
+
 
 *9. Lớp Báo cáo chấm công*
 
@@ -144,6 +153,7 @@
  - Được Quản lý và Admin sử dụng.
 
 * Ý nghĩa: Sinh báo cáo từ dữ liệu chấm công, hỗ trợ xuất file cho quản lý hoặc admin.
+
 
 
 🔵 Mối quan hệ chính
