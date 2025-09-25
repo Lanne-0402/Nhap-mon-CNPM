@@ -24,7 +24,7 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tí
 - Quản lý ca làm việc
 - Báo cáo ngày/tuần/tháng
 
-<img width="856" height="831" alt="UseCaseApp" src="https://github.com/user-attachments/assets/aa8185fa-29b5-4d58-9cc3-f3030297a243" />
+<img width="821" height="801" alt="UseCaseApp" src="https://github.com/user-attachments/assets/fb7d599a-f89f-4620-890b-c3bf0b21c531" />
 
 ---
 
