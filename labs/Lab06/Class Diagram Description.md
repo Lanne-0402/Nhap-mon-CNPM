@@ -10,6 +10,7 @@
  - ID User : int
  - Tên người dùng : String
  - Mật khẩu : String
+ - Email : String
  - Vai trò : String
 
 * Phương thức:
@@ -24,6 +25,7 @@
 * Thuộc tính:
  - ID nhân viên : int
  - Tên : String
+ - Chức vụ : String
  - Vị trí phòng ban : String
 
 * Phương thức:
@@ -44,7 +46,7 @@
 * Phương thức:
  - + Quản lý nhân viên()
  - + Quản lý ca làm việc()
- - + Thống kê giờ công()
+ - + Thống kê, báo cáo giờ công()
  - + Phản hồi yêu cầu/khiếu nại()
      
 * Quan hệ:
@@ -57,13 +59,15 @@
 *4. Lớp Admin*
 
 * Phương thức:
- - + Quản lý hệ thống()
- - + Báo cáo và xuất file()
- - + Vận hành và cải tiến App()
+ - + Bảo mật và kiểm soát truy cập()
+ - + Giám sát và vận hành() 
+ - + Cải tiến và bảo trì()
+ - + Quản trị hệ thống()
+ - + Quản lý dữ liệu và báo cáo cấp cao()
 
 * Quan hệ: Kế thừa từ User.
 
-* Ý nghĩa: Admin quản trị cấp cao, đảm bảo hệ thống vận hành, xử lý báo cáo tổng thể và bảo trì hệ thống.
+* Ý nghĩa: Admin quản trị cấp cao, đảm bảo hệ thống vận hành, bảo trì hệ thống và xử lý báo cáo tổng thể cấp cao.
 
 
 *5. Lớp Checkin/Checkout*
@@ -118,7 +122,7 @@
 
 * Quan hệ: Liên kết với Quản lý.
 
-*Ý nghĩa: Đại diện cho lịch làm việc, cho phép quản lý phân ca và chỉnh sửa ca làm việc.
+* Ý nghĩa: Đại diện cho lịch làm việc, cho phép quản lý phân ca và chỉnh sửa ca làm việc.
 
 
 *8. Lớp Quản lý nhân viên*
