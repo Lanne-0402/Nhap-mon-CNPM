@@ -1,6 +1,6 @@
 🔶 Mô tả sơ đồ lớp - Class Diagram 
 
-1. Lớp User
+*1. Lớp User*
 
 * Thuộc tính:
 - ID User : int
@@ -14,7 +14,7 @@
 
 * Ý nghĩa: Lớp cơ sở, chứa thông tin đăng nhập và vai trò chung của tất cả người dùng hệ thống.
 
-2. Lớp Nhân viên
+*2. Lớp Nhân viên*
 
 * Thuộc tính:
  - ID nhân viên : int
@@ -26,7 +26,7 @@
 - + Xem lịch sử chấm công()
 - + Yêu cầu / Khiếu nại()
 
-Quan hệ:
+* Quan hệ:
 
 Kế thừa từ User.
 
