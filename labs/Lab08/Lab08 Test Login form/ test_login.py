@@ -93,3 +93,4 @@ def test_toggle_password_visibility(browser):
     assert pwd.get_attribute("type") == "text"
     toggle.click()
     assert pwd.get_attribute("type") == "password"
+
