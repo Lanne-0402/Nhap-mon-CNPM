@@ -1,38 +1,63 @@
-# Project Report
+# 📘 Báo Cáo Dự Án: Hệ Thống Chấm Công Nhân Viên
+
 ## 1. Giới thiệu
-- Nội dung báo cáo này bao gồm các artifacts và mô tả quy trình làm việc khi xây dựng chức năng của hệ thống chấm công nhân viên.
-- Trình bày các artifacts gồm: Use Case, Sequence Diagram, Form Login code (với JS, HTML và CSS)
+
+- Báo cáo này trình bày các **artifacts** và mô tả **quy trình làm việc** trong quá trình xây dựng hệ thống chấm công nhân viên.
+- Các nội dung bao gồm:
+  - Phân tích chức năng hệ thống
+  - Use Case Diagram, Sequence Diagram
+  - Source code giao diện đăng nhập (HTML, CSS, JS)
+  - Mô tả Use Case chuẩn UML
+
+---
+
 ## 2. Phân tích mục tiêu hệ thống
-Hệ thống được lựa chọn là **Hệ thống chấm công nhân viên**.  
-Mục tiêu chính: hỗ trợ nhân viên chấm công (checkin/checkout), quản lý theo dõi giờ làm, và cung cấp báo cáo cho quản lý.  
-Xác định nhu cầu cơ bản: minh bạch giờ làm, dễ dàng theo dõi và giảm sai sót trong tính công.
-## 3. Phân tích chức năng quan trọng
-- **Checkin/Checkout**: nhân viên chấm công vào/ra.  
-- **Yêu cầu chỉnh sửa giờ công/Khiếu nại**: nhân viên gửi khi phát hiện sai lệch.  
-- **Thống kê, tổng hợp giờ công**: quản lý xem báo cáo theo ngày/tuần/tháng.  
-## 4. Phân tích cách hệ thống hoạt động
-Từ các chức năng trên, nhóm phân tích luồng hoạt động giữa **nhân viên – hệ thống – quản lý**.  
-Mỗi chức năng được mô tả và trực quan hóa bằng sơ đồ UML (Use Case Diagram, Sequence Diagram).  
-## 5. Quản lý và phát triển với GitHub
-### Sau khi có bản phân tích và UML, nhóm bắt đầu làm quen với GitHub
-- **Tạo repo public**:  
-  Link repo: [https://github.com/Lanne-0402/Nhap-mon-CNPM.git](https://github.com/Lanne-0402/Nhap-mon-CNPM.git)  
-Note: Một bạn trong nhóm sẽ tạo repository public và mời các thành viên tham gia để làm bài nhóm qua link trên. Người sở hữu repo (owner) trao quyền cho tất cả thành viên đều có thể chỉnh sửa để cùng nhau làm bài.
-- **Sơ đồ UML Use Case Diagram (UC) cho các chức năng chính của hệ thống**:
-![UC img1](../Lab02/UseCaseMini-App.png)
-- **Sơ đồ UML Use Case Diagram (UC) cho các chức năng checkin**:
-![UC img2](../Lab03/UC%20QLNV%20App.drawio.png)
-- **Sơ đồ UML Sequence Diagram (SQ)**:        
-![SQ img](../Lab03/SQ%20Diagram%20QLNV%20App.drawio.png)
-### Clone về máy cục bộ để làm Login Form:
+
+- **Hệ thống lựa chọn**: Quản lý chấm công nhân viên
+- **Mục tiêu chính**:
+  - Hỗ trợ nhân viên chấm công Check-in/Checkout
+  - Theo dõi lịch sử công
+  - Tạo báo cáo cho quản lý
+- **Nhu cầu thực tế**:
+  - Minh bạch giờ làm
+  - Giảm sai sót tính công
+  - Tối ưu quản lý ca và nhân sự
+
+---
+
+## 3. Sơ đồ Use Case
+
+### 📌 Tổng quan hệ thống chấm công
+
+![Use Case Tổng quan](../Lab02/UseCaseApp.png)
+
+---
+
+### 📌 Quản lý nhân viên (Use Case chi tiết)
+
+![Use Case Quản lý nhân viên](../Lab03/UC%20QLNV%20App.drawio.png)
+
+---
+
+## 4. Sequence Diagram - Quản lý nhân viên
+
+![Sequence Diagram - Quản lý nhân viên](../Lab03/SQ%20Diagram%20QLNV%20App.drawio.png)
+
+---
+
+## 5. Source Code Giao Diện Đăng Nhập (Login Form)
+
+📁 **Thư mục chứa mã nguồn**:  
+🔗 [https://github.com/Lanne-0402/Nhap-mon-CNPM/tree/main/Lab04](https://github.com/Lanne-0402/Nhap-mon-CNPM/tree/main/labs/Lab04)
+
+### 💻 Clone về máy:
 ```bash
 git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
 cd Nhap-mon-CNPM
 ```
-- Login Form:
-📁[Thư mục chứa Login form souce code](https://github.com/Lanne-0402/Nhap-mon-CNPM/tree/main/Lab04)
-5. Triển khai demo bằng GitHub Pages
 
-Nhóm sử dụng GitHub Pages để deploy trực tiếp giao diện từ branch main.
-Bật GitHub Pages trong Settings → Pages.
-Link demo: https://lanne-0402.github.io/Nhap-mon-CNPM/Lab04
+##. Triển khai demo bằng GitHub Pages
+
+GitHub Pages được sử dụng để triển khai giao diện Login Form
+Đường dẫn demo:
+Link demo: https://lanne-0402.github.io/Nhap-mon-CNPM/labs/Lab04
