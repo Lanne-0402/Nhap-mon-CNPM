@@ -1,6 +1,5 @@
 import pytest
 import mock_module as mock
-
 def test_them_nhan_vien():
     nv = mock.them_nhan_vien(
         "Nguyen Van A", "1995-01-01", "Nam",
