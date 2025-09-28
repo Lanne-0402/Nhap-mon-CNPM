@@ -15,8 +15,6 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 ![Mô hình Use Case QLNV](../Lab03/UC%20QLNV%20App.drawio.png)
 #### Mô hình Sequence chức năng Quản lý thông tin nhân viên:
 ![Sequence Diagram QLNV](../Lab03/SQ%20Diagram%20QLNV%20App.drawio.png)
-#### ERD chức năng Quản lý thông tin nhân viên:
-![ERD QLNV](../Lab05/ERD.png)
 #### Class Diagram App Chấm công:
 ![Class Diagram App](../Lab06-infomanager-class/ClassDiagram.drawio.png)
 #### Class Diagram chức năng Quản lý thông tin nhân viên:
@@ -26,10 +24,27 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 #### Package Diagram chức năng Quản lý thông tin nhân viên:
 ![Package Diagram App](../Lab06-infomanager-class/Package-diagram%20QLNV.drawio.png)
 ---
-## 3. Database & code minh hoạ 
+## 3. Thiết kế database
+
+### Các bảng chính
+
+- User – Quản lý tài khoản đăng nhập (Admin, Manager, Employee).
+- NhanVien – Thông tin nhân sự (họ tên, ngày sinh, vị trí, phòng ban...).
+- QuanLyCa – Danh sách ca làm việc (tên ca, giờ bắt đầu/kết thúc).
+- CheckInCheckOut – Ghi nhận giờ vào/ra của nhân viên.
+- BaoCaoChamCong – Tổng hợp báo cáo theo tháng/năm (số ngày công, đi trễ, nghỉ, OT).
+
+### Quan hệ giữa các bảng
+
+- User – NhanVien: 1-1 (mỗi tài khoản gắn với một nhân viên).
+- NhanVien – CheckInCheckOut: 1-nhiều (một nhân viên có nhiều lần chấm công).
+- QuanLyCa – CheckInCheckOut: 1-nhiều (một ca có nhiều bản ghi chấm công).
+- NhanVien – BaoCaoChamCong: 1-nhiều (một nhân viên có nhiều báo cáo theo tháng/năm).
+
+![ERD](../Lab05/ERD.png)
+
 ---
 ## 4. Kết quả test & sprint report 
-
 
 ### A. Kết quả Test Login
 #### ✅ Login thành công (`test_login_success`)
