@@ -76,7 +76,6 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 ![Kết quả Test Login](../Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
 
 ### B. Unit Test Module
-# Báo cáo Testing
 
 ### Lý do viết mock code
 - **An toàn dữ liệu**: Tránh việc test làm thay đổi hoặc xóa nhầm dữ liệu thật trong database chính.  
