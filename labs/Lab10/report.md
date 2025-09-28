@@ -15,8 +15,6 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 ## 4. Kết quả test & sprint report 
 
 
----
-
 ### A. Kết quả Test Login
 #### ✅ Login thành công (`test_login_success`)
 - Nhập đúng username/password (ví dụ: `nv001` / `123456`).
@@ -45,6 +43,7 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Nhập mật khẩu.
 - Bấm nút 👁 (toggle).
 - Kiểm tra input password đổi từ `"password"` sang `"text"`.
-![Kết quả Test Login](labs/Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
+![Kết quả Test Login](../labs/Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
 
+---
 ## 5. Kết luận & định hướng mở rộng 
