@@ -61,6 +61,16 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 ![Kết quả Test Login](../Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
 
 
+### B. Sprint report
+- Sprint 1 (2 tuần): Hoàn thành chức năng Quản lý thông tin cá nhân của nhân viên
+-	Sprint Goal: App chấm công cho phép nhân viên chấm công bằng QR code và Quản lý quản trị nhân viên cùng ca làm việc một cách hiệu quả và dễ dàng nhất.
+#### Backlog App cho chức năng Quản lý thông tin nhân viên trong Sprint 1:
+![Backlog QLNV](../Lab09/EvidenceScreen/backlogqlnv.png)
+#### Board App cho chức năng Quản lý thông tin nhân viên trong Sprint 1:
+![Board QLNV](../Lab09/EvidenceScreen/board.png)
+#### BurnDown Chart cho chức năng Quản lý thông tin nhân viên trong Sprint 1:
+![BurnDown Chart Sprint 1 QLNV](../Lab09/EvidenceScreen/burndown.png)
+
 ---
 ## 5. Kết luận & định hướng mở rộng 
 **Kết luận:**
