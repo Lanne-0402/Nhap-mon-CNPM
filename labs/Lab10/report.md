@@ -43,7 +43,8 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Nhập mật khẩu.
 - Bấm nút 👁 (toggle).
 - Kiểm tra input password đổi từ `"password"` sang `"text"`.
-![Kết quả Test Login](../labs/Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
+![Kết quả Test Login](../Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
+
 
 ---
 ## 5. Kết luận & định hướng mở rộng 
