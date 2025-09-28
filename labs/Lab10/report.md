@@ -42,7 +42,6 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 #### 👁 Toggle hiển thị mật khẩu (`test_toggle_password_visibility`)
 - Nhập mật khẩu.
 - Bấm nút 👁 (toggle).
-- Kiểm tra input password đổi từ `"password"` sang `"text"`.
 ![Kết quả Test Login](../Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
 
 
