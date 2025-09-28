@@ -7,32 +7,32 @@
 -	Epic: ATM Basic Functions.
 
 **2.	User Stories** 
--	Epic 1: Chấm công nhân viên bằng quét QR code
-  + US1: Là nhân viên, tôi muốn đăng nhập/đăng xuất bằng tài khoản để bảo mật dữ liệu chấm công.
-  + US2: Là nhân viên, tôi muốn check-in/check-out bằng cách quét QR code để ghi nhận giờ làm việc nhanh chóng.
-•	US3: Là nhân viên, tôi muốn xem lại lịch sử chấm công của mình để theo dõi số ngày/giờ đã làm.
-•	US4: Là nhân viên, tôi muốn gửi yêu cầu chỉnh sửa bảng chấm công (khi có sai sót) để đảm bảo tính chính xác.
+🔴 Epic 1: Chấm công nhân viên bằng quét QR code
+- US1: Là nhân viên, tôi muốn đăng nhập/đăng xuất bằng tài khoản để bảo mật dữ liệu chấm công.
+- US2: Là nhân viên, tôi muốn check-in/check-out bằng cách quét QR code để ghi nhận giờ làm việc nhanh chóng.
+-	US3: Là nhân viên, tôi muốn xem lại lịch sử chấm công của mình để theo dõi số ngày/giờ đã làm.
+-	US4: Là nhân viên, tôi muốn gửi yêu cầu chỉnh sửa bảng chấm công (khi có sai sót) để đảm bảo tính chính xác.
 
--	Epic 2: Quản lý thông tin nhân viên
-•	US5: Là quản lý, tôi muốn thêm thông tin nhân viên mới để quản lý đội ngũ.
-•	US6: Là quản lý, tôi muốn chỉnh sửa thông tin nhân viên để đảm bảo dữ liệu luôn đúng.
-•	US7: Là quản lý, tôi muốn xóa thông tin nhân viên khi họ nghỉ việc để giữ dữ liệu gọn gàng.
-•	US8: Là quản lý, tôi muốn tìm kiếm và xem thông tin nhân viên để dễ dàng quản trị.
+🔴	Epic 2: Quản lý thông tin nhân viên
+-	US5: Là quản lý, tôi muốn thêm thông tin nhân viên mới để quản lý đội ngũ.
+-	US6: Là quản lý, tôi muốn chỉnh sửa thông tin nhân viên để đảm bảo dữ liệu luôn đúng.
+-	US7: Là quản lý, tôi muốn xóa thông tin nhân viên khi họ nghỉ việc để giữ dữ liệu gọn gàng.
+-	US8: Là quản lý, tôi muốn tìm kiếm và xem thông tin nhân viên để dễ dàng quản trị.
 
--	Epic 3: Quản lý ca làm việc
-•	US9: Là quản lý, tôi muốn tạo ca làm việc mới để sắp xếp lịch cho nhân viên.
-•	US10: Là quản lý, tôi muốn chỉnh sửa ca làm việc để cập nhật khi có thay đổi.
-•	US11: Là quản lý, tôi muốn phân công ca làm việc cho nhân viên để tối ưu nguồn lực.
-•	US12: Là quản lý, tôi muốn xem danh sách ca làm việc để theo dõi tình trạng phân ca.
+🔴	Epic 3: Quản lý ca làm việc
+-	US9: Là quản lý, tôi muốn tạo ca làm việc mới để sắp xếp lịch cho nhân viên.
+-	US10: Là quản lý, tôi muốn chỉnh sửa ca làm việc để cập nhật khi có thay đổi.
+-	US11: Là quản lý, tôi muốn phân công ca làm việc cho nhân viên để tối ưu nguồn lực.
+-	US12: Là quản lý, tôi muốn xem danh sách ca làm việc để theo dõi tình trạng phân ca.
 
-•	Epic 4: Thống kê, tổng hợp báo cáo chấm công theo ngày, tháng, năm
+🔴	Epic 4: Thống kê, tổng hợp báo cáo chấm công theo ngày, tháng, năm
 -	US13: Là quản lý, tôi muốn xem báo cáo chấm công theo ngày để quản lý tình hình làm việc hằng ngày.
 -	US14: Là quản lý, tôi muốn xem báo cáo chấm công theo tháng để tổng hợp hiệu suất nhân viên.
 -	US15: Là quản lý, tôi muốn xem báo cáo chấm công theo năm để phân tích xu hướng dài hạn.
 -	US16: Là quản lý, tôi muốn xuất báo cáo chấm công ra file Excel/PDF để lưu trữ và chia sẻ.
 
 **3. Tasks / Subtasks**
-	Epic 1: Chấm công nhân viên bằng quét QR code
+▪	Epic 1: Chấm công nhân viên bằng quét QR code
 -	US1: Đăng nhập/Đăng xuất
 •	Task 1.1: Thiết kế giao diện đăng nhập/đăng xuất
 o	Sub-task: Tạo form nhập username/password
