@@ -49,7 +49,7 @@ o	Sub-task: Xử lý JWT/Session
 
 -	US2: Check-in/Check-out bằng QR
 •	Task 2.1: Thiết kế giao diện quét QR
-o	Sub-task: Tích hợp camera/mã QR scanner
+>	Sub-task: Tích hợp camera/mã QR scanner
 o	Sub-task: Hiển thị kết quả check-in/out thành công/thất bại
 •	Task 2.2: API xử lý quét QR
 o	Sub-task: Lưu thời gian check-in/out vào DB
