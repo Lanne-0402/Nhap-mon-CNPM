@@ -60,6 +60,71 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Bấm nút 👁 (toggle).
 ![Kết quả Test Login](../Lab08-testing/Lab08%20Test%20Login%20form/Pass.jpg)
 
+### B. Unit Test Module
+# Báo cáo Testing
+
+### Lý do viết mock code
+- **An toàn dữ liệu**: Tránh việc test làm thay đổi hoặc xóa nhầm dữ liệu thật trong database chính.  
+- **Bảo vệ code gốc**: Testing trên code chính có thể gây ra lỗi ngoài ý muốn. Việc tách mock code giúp giữ cho code production ổn định.  
+- **Tiện lợi khi kiểm thử**: Không cần kết nối đến MySQL, có thể chạy test nhanh chóng ở bất kỳ môi trường nào.  
+- **Dễ dàng reset**: Có thể khởi tạo lại mock database bất cứ lúc nào để chạy lại test từ đầu.  
+
+---
+
+### Phương pháp thực hiện
+
+#### Mock code
+- **CSDL giả lập (mock_db)**: sử dụng một `list` Python để lưu trữ dữ liệu nhân viên thay cho bảng thật.  
+- **Các hàm kiểm tra dữ liệu nhập**:  
+  - `nhap_chuoi()` → chỉ cho phép chữ cái và khoảng trắng.  
+  - `nhap_ngay()` → yêu cầu định dạng `YYYY-MM-DD`, không cho phép ngày trong tương lai.  
+  - `nhap_email()` → kiểm tra định dạng email.  
+  - `nhap_sdt()` → chỉ cho phép số, độ dài từ 9–15 ký tự.  
+- **Các hàm CRUD**:  
+  - `them_nhan_vien()` → thêm nhân viên mới.  
+  - `xem_danh_sach()` → xem danh sách nhân viên.  
+  - `cap_nhat_nhan_vien()` → cập nhật thông tin.  
+  - `xoa_nhan_vien()` → xóa nhân viên.  
+- **Hàm hỗ trợ**: `reset_db()` để khởi tạo lại dữ liệu khi chạy nhiều lần test.  
+
+#### Pytest
+- Sử dụng `pytest` để tự động chạy test case.  
+- Dùng **fixture `reset_data`** để làm mới dữ liệu trước và sau mỗi test.  
+- Test bao gồm nhiều trường hợp (thành công và thất bại).  
+
+---
+
+### Các trường hợp test tiêu biểu
+
+#### CRUD
+- **Thêm nhân viên hợp lệ** → dữ liệu được thêm vào mock_db.  
+- **Thêm nhân viên thiếu tên** → `ValueError`.  
+- **Cập nhật địa chỉ hợp lệ** → thông tin thay đổi thành công.  
+- **Cập nhật nhân viên không tồn tại** → `ValueError`.  
+- **Cập nhật field không hợp lệ** → `ValueError`.  
+- **Cập nhật giá trị rỗng** → `ValueError`.  
+- **Xóa nhân viên hợp lệ** → nhân viên bị xóa khỏi danh sách.  
+- **Xóa nhân viên không tồn tại** → `ValueError`.  
+
+#### Kiểm tra dữ liệu nhập
+- **Ngày hợp lệ**: `"2020-12-31"` → hợp lệ.  
+- **Ngày sai định dạng**: `"2020/12/31"` → `ValueError`.  
+- **Ngày tương lai**: `"2100-01-01"` → `ValueError`.  
+- **Email hợp lệ**: `"test@gmail.com"`.  
+- **Email sai**: thiếu `@`, thiếu domain, chuỗi rỗng → `ValueError`.  
+- **Số điện thoại hợp lệ**: `"0912345678"`.  
+- **Số điện thoại sai**: chứa chữ, quá ngắn/dài, ký tự đặc biệt → `ValueError`.  
+- **Chuỗi hợp lệ**: `"Nguyen Van A"`, `"   Le Diep   "` → được trim khoảng trắng.  
+- **Chuỗi sai**: rỗng, toàn khoảng trắng, chứa số/ký tự đặc biệt → `ValueError`.  
+
+---
+
+### Kết quả
+- Toàn bộ test được chạy tự động bằng `pytest`.  
+- Các chức năng CRUD và validation đều được kiểm tra.  
+- Các trường hợp nhập sai dữ liệu đều sinh lỗi đúng như mong đợi.
+
+![Testing](../Lab08-testing/Lab08%20Unit%20test%20module/Unit_Test.png)
 
 ### C. Sprint report
 - Sprint 1 (2 tuần): Hoàn thành chức năng Quản lý thông tin cá nhân của nhân viên
