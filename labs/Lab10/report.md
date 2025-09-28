@@ -47,3 +47,11 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 
 ---
 ## 5. Kết luận & định hướng mở rộng 
+Kết luận: Mini App chấm công nhân viên đã được xây dựng và triển khai với các chức năng cơ bản như: quản lý thông tin nhân viên, ghi nhận giờ vào/ra, quản lý ca làm việc, xuất báo cáo chấm công theo ngày/tháng/năm. Ứng dụng giúp giảm thiểu sai sót trong việc quản lý thời gian làm việc, đồng thời hỗ trợ bộ phận nhân sự theo dõi dữ liệu một cách trực quan, nhanh chóng và chính xác. Qua quá trình phát triển, nhóm đã áp dụng UML để phân tích hệ thống, xây dựng cơ sở dữ liệu, viết code minh họa, kiểm thử và tổng hợp sprint report nhằm đảm bảo tiến độ và chất lượng sản phẩm.
+
+Định hướng mở rộng: 
+- Bổ sung tính năng phân quyền (Admin, Nhân viên, Quản lý).
+- Tích hợp tính năng chấm công bằng GPS hoặc nhận diện khuôn mặt để tăng độ tin cậy.
+- Xuất báo cáo đa dạng hơn (PDF, Excel) và cho phép thống kê nâng cao (tăng ca, nghỉ phép).
+- Kết nối với hệ thống tính lương để tự động hóa quy trình nhân sự.
+- Tối ưu giao diện người dùng trên cả web và mobile nhằm nâng cao trải nghiệm sử dụng.
