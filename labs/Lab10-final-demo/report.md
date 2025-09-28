@@ -9,7 +9,22 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Đảm bảo tính chính xác và bảo mật thông tin.
 ---
 ## 2. Mô hình UML
+- Mô hình Use Case App chấm công:
 ![Mô hình Use Case App](../Lab02/UseCaseApp.png)
+- Mô hình Use Case chức năng Quản lý thông tin nhân viên:
+![Mô hình Use Case QLNV](../Lab03/UC%20QLNV%20App.drawio.png)
+- Mô hình Sequence chức năng Quản lý thông tin nhân viên:
+![Sequence Diagram QLNV](../Lab03/SQ%20Diagram%20QLNV%20App.drawio.png)
+- ERD chức năng Quản lý thông tin nhân viên:
+![ERD QLNV](../Lab05/ERD.png)
+- Class Diagram App Chấm công:
+![Class Diagram App](../Lab06-infomanager-class/ClassDiagram.drawio.png)
+- Class Diagram chức năng Quản lý thông tin nhân viên:
+![Class Diagram QLNV](../Lab06-infomanager-class/ClassDiagram_QLNV.drawio.png)
+- Package Diagram App Chấm công:
+![Package Diagram App](../Lab06-infomanager-class/Package-diagramApp.drawio.png)
+- Package Diagram chức năng Quản lý thông tin nhân viên:
+![Package Diagram App](../Lab06-infomanager-class/Package-diagram%20QLNV.drawio.png)
 ---
 ## 3. Database & code minh hoạ 
 ---
