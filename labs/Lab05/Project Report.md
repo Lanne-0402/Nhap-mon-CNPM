@@ -56,7 +56,7 @@ git clone https://github.com/Lanne-0402/Nhap-mon-CNPM.git
 cd Nhap-mon-CNPM
 ```
 
-##. Triển khai demo bằng GitHub Pages
+## Triển khai demo bằng GitHub Pages
 
 GitHub Pages được sử dụng để triển khai giao diện Login Form
 Đường dẫn demo:
