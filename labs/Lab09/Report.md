@@ -38,9 +38,9 @@
 
 🔴	Epic 1: Chấm công nhân viên bằng quét QR code
 -	US1: Đăng nhập/Đăng xuất
-•	Task 1.1: Thiết kế giao diện đăng nhập/đăng xuất
-o	Sub-task: Tạo form nhập username/password
-o	Sub-task: Thêm validate thông tin đăng nhập
+▪	Task 1.1: Thiết kế giao diện đăng nhập/đăng xuất
+▪	Sub-task: Tạo form nhập username/password
+▪	Sub-task: Thêm validate thông tin đăng nhập
 •	Task 1.2: Viết API xác thực người dùng
 o	Sub-task: Kết nối DB kiểm tra tài khoản
 o	Sub-task: Xử lý JWT/Session
