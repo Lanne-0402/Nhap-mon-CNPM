@@ -7,11 +7,11 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Lưu trữ dữ liệu trên cơ sở dữ liệu quan hệ.
 - Cung cấp giao diện web đơn giản, dễ sử dụng.
 - Đảm bảo tính chính xác và bảo mật thông tin.
-
+---
 ## 2. Mô hình UML 
-
+---
 ## 3. Database & code minh hoạ 
-
+---
 ## 4. Kết quả test & sprint report 
 
 
