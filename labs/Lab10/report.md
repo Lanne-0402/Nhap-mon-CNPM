@@ -9,7 +9,7 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Đảm bảo tính chính xác và bảo mật thông tin.
 ---
 ## 2. Mô hình UML
-![Mô hình Use Case tổng](../Lab02/UseCaseApp.pnj)
+![Mô hình Use Case App](../Lab02/UseCaseApp.png)
 ---
 ## 3. Database & code minh hoạ 
 ---
