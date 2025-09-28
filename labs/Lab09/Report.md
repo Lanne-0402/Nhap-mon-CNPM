@@ -6,6 +6,7 @@
 -	Project: ATM System
 -	Epic: ATM Basic Functions.
 
+
 **2.	User Stories** 
 
 🔴 Epic 1: Chấm công nhân viên bằng quét QR code
@@ -13,6 +14,7 @@
 - US2: Là nhân viên, tôi muốn check-in/check-out bằng cách quét QR code để ghi nhận giờ làm việc nhanh chóng.
 -	US3: Là nhân viên, tôi muốn xem lại lịch sử chấm công của mình để theo dõi số ngày/giờ đã làm.
 -	US4: Là nhân viên, tôi muốn gửi yêu cầu chỉnh sửa bảng chấm công (khi có sai sót) để đảm bảo tính chính xác.
+
 🔴	Epic 2: Quản lý thông tin nhân viên
 -	US5: Là quản lý, tôi muốn thêm thông tin nhân viên mới để quản lý đội ngũ.
 -	US6: Là quản lý, tôi muốn chỉnh sửa thông tin nhân viên để đảm bảo dữ liệu luôn đúng.
@@ -31,8 +33,10 @@
 -	US15: Là quản lý, tôi muốn xem báo cáo chấm công theo năm để phân tích xu hướng dài hạn.
 -	US16: Là quản lý, tôi muốn xuất báo cáo chấm công ra file Excel/PDF để lưu trữ và chia sẻ.
 
+
 **3. Tasks / Subtasks**
-▪	Epic 1: Chấm công nhân viên bằng quét QR code
+
+🔴	Epic 1: Chấm công nhân viên bằng quét QR code
 -	US1: Đăng nhập/Đăng xuất
 •	Task 1.1: Thiết kế giao diện đăng nhập/đăng xuất
 o	Sub-task: Tạo form nhập username/password
@@ -71,7 +75,7 @@ o	Sub-task: Validate dữ liệu nhập
 •	Task 4.4: Test toàn bộ luồng yêu cầu chỉnh sửa
 
 
-	Epic 2: Quản lý thông tin nhân viên
+🔴	Epic 2: Quản lý thông tin nhân viên
 -	US5: Thêm nhân viên mới
 •	Task 5.1: Thiết kế form thêm nhân viên
 •	Task 5.2: API thêm nhân viên vào DB
@@ -98,7 +102,7 @@ o	Sub-task: Validate dữ liệu nhập
 •	Task 8.3: Test tìm kiếm
 
 
-	Epic 3: Quản lý ca làm việc
+🔴	Epic 3: Quản lý ca làm việc
 -	US9: Tạo ca làm việc mới
 •	Task 9.1: Thiết kế form tạo ca làm việc
 •	Task 9.2: API tạo ca mới
@@ -123,7 +127,7 @@ o	Sub-task: Validate dữ liệu nhập
 •	Task 12.3: Test hiển thị danh sách
 
 
-	Epic 4: Thống kê, tổng hợp báo cáo chấm công
+🔴	Epic 4: Thống kê, tổng hợp báo cáo chấm công
 -	US13: Báo cáo theo ngày
 •	Task 13.1: API tổng hợp dữ liệu chấm công theo ngày
 •	Task 13.2: Giao diện báo cáo ngày
