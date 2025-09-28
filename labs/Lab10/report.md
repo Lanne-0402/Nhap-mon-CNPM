@@ -8,16 +8,16 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Cung cấp giao diện web đơn giản, dễ sử dụng.
 - Đảm bảo tính chính xác và bảo mật thông tin.
 
-##2. Mô hình UML 
+## 2. Mô hình UML 
 
-##3. Database & code minh hoạ 
+## 3. Database & code minh hoạ 
 
-##4. Kết quả test & sprint report 
+## 4. Kết quả test & sprint report 
 
 
 ---
 
-###A. Kết quả Test Login
+### A. Kết quả Test Login
 #### ✅ Login thành công (`test_login_success`)
 - Nhập đúng username/password (ví dụ: `nv001` / `123456`).
 - Bấm **Login**.
@@ -45,6 +45,6 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 - Nhập mật khẩu.
 - Bấm nút 👁 (toggle).
 - Kiểm tra input password đổi từ `"password"` sang `"text"`.
-![Kết quả Test Login](labs/Lab08-testing/Lab08 Test Login form/Pass.jpg)
+![Kết quả Test Login](labs/Lab08-testing/Pass.jpg)
 
-##5. Kết luận & định hướng mở rộng 
+## 5. Kết luận & định hướng mở rộng 
