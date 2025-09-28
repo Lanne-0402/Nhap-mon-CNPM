@@ -8,8 +8,8 @@
 
 **2.	User Stories** 
 -	Epic 1: Chấm công nhân viên bằng quét QR code
-•	US1: Là nhân viên, tôi muốn đăng nhập/đăng xuất bằng tài khoản để bảo mật dữ liệu chấm công.
-•	US2: Là nhân viên, tôi muốn check-in/check-out bằng cách quét QR code để ghi nhận giờ làm việc nhanh chóng.
+  + US1: Là nhân viên, tôi muốn đăng nhập/đăng xuất bằng tài khoản để bảo mật dữ liệu chấm công.
+  + US2: Là nhân viên, tôi muốn check-in/check-out bằng cách quét QR code để ghi nhận giờ làm việc nhanh chóng.
 •	US3: Là nhân viên, tôi muốn xem lại lịch sử chấm công của mình để theo dõi số ngày/giờ đã làm.
 •	US4: Là nhân viên, tôi muốn gửi yêu cầu chỉnh sửa bảng chấm công (khi có sai sót) để đảm bảo tính chính xác.
 
