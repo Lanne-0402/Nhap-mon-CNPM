@@ -14,7 +14,7 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tí
 - Lê Thị Bảo Diệp - N23DCPT012  
 - Nguyễn Ngọc Gia Hân - N23DCPT019  
 - Nông Thị Hồng Lan - N23DCPT029  
-- **Thạch Gia Uy - N23DCPT056 (Leader)**  
+- **Thạch Gia Uy - N23DCPT056 (Leader)** - Github Page: https://gia-uy.github.io/ 
 
 ---
 
