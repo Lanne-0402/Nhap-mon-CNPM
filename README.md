@@ -13,7 +13,7 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tí
 ## 👥 Thành viên nhóm  
 - Lê Thị Bảo Diệp - N23DCPT012  [Profile của Diệp](https://baodiep0501.github.io/Profile/)
 - Nguyễn Ngọc Gia Hân - N23DCPT019  
-- Nông Thị Hồng Lan - N23DCPT029  
+- Nông Thị Hồng Lan - N23DCPT029  [Profile của Lan](https://lanne-0402.github.io/Profile-Lanne/)
 - **Thạch Gia Uy - N23DCPT056 (Leader)** - Github Page: https://gia-uy.github.io/ 
 
 ---
