@@ -149,6 +149,8 @@ Mini App Quản Lý Chấm Công được xây dựng từ các Lab trước, v�
 ![Board QLNV](../Lab09/EvidenceScreen/board.png)
 #### BurnDown Chart cho chức năng Quản lý thông tin nhân viên trong Sprint 1:
 ![BurnDown Chart Sprint 1 QLNV](../Lab09/EvidenceScreen/burndown.png)
+
+---
 Đường dẫn demo:
 Link demo: https://lanne-0402.github.io/Nhap-mon-CNPM/labs/Lab04
 ---
